@@ -11,6 +11,7 @@
 		AC4C5C472AA4D92900946BD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4C5C462AA4D92900946BD0 /* ContentView.swift */; };
 		AC4C5C492AA4D92A00946BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4C5C482AA4D92A00946BD0 /* Assets.xcassets */; };
 		AC4C5C4C2AA4D92A00946BD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4C5C4B2AA4D92A00946BD0 /* Preview Assets.xcassets */; };
+		AC4C5C542AA4D98B00946BD0 /* BannerModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4C5C532AA4D98B00946BD0 /* BannerModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		AC4C5C482AA4D92A00946BD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC4C5C4B2AA4D92A00946BD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC4C5C4D2AA4D92A00946BD0 /* NotificationBannerPoC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationBannerPoC.entitlements; sourceTree = "<group>"; };
+		AC4C5C532AA4D98B00946BD0 /* BannerModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				AC4C5C482AA4D92A00946BD0 /* Assets.xcassets */,
 				AC4C5C4D2AA4D92A00946BD0 /* NotificationBannerPoC.entitlements */,
 				AC4C5C4A2AA4D92A00946BD0 /* Preview Content */,
+				AC4C5C532AA4D98B00946BD0 /* BannerModifier.swift */,
 			);
 			path = NotificationBannerPoC;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC4C5C472AA4D92900946BD0 /* ContentView.swift in Sources */,
+				AC4C5C542AA4D98B00946BD0 /* BannerModifier.swift in Sources */,
 				AC4C5C452AA4D92900946BD0 /* NotificationBannerPoCApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
